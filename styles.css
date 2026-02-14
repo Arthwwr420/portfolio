@@ -1,0 +1,58 @@
+body {
+    font-family: Ui-monospace, SF Mono, SF Mono Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+    margin: 0 auto;
+    display: flex;
+}
+
+div{
+    display: block;
+    overflow: hidden;
+}
+
+h1 {
+    margin-bottom: 0.2em;
+}
+
+h2 {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+}
+
+.container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin:100px;
+
+    border: 3px solid #111;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    margin: -3px;
+    border: 3px solid #111;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin: -3px;
+    border-right: 3px solid #111;
+    padding: 20px;
+}
